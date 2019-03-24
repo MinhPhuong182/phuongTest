@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "manager.com.chitieu",
+    "packageFolder": "manager/com/chitieu",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "quanlychitieu",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "buildTool": "maven",
+    "serverPort": "8081",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "YTJhZDVjYWQ5ZjUzMjE0ODAwODRlNWVjMGMxMTllNjM5ZjE4NjEyZDk5NzRmOGZhZDA0Mjk5NmZhMDRmN2VkNjhmMDNkYTNhOThjMjU4Y2NmZWFmNjEzYjhlY2ZmYzQ2ZTg5MTI3MjdmZjMzNDQ0NzJkMmIwMmZiZWIxMzExZTk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "KiCongBo",
+    "NhomChiTieu",
+    "ChiTieu"
+  ]
+}

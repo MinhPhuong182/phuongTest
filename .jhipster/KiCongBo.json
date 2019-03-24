@@ -1,0 +1,62 @@
+{
+    "name": "KiCongBo",
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateProgram",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "nhomChiTieu",
+            "otherEntityRelationshipName": "kicongbo",
+            "relationshipName": "nhomchitieu"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "chiTieu",
+            "otherEntityRelationshipName": "kicongbo",
+            "relationshipName": "chitieu",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190324094722",
+    "entityTableName": "ki_cong_bo",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "gateway",
+        "quanlychitieu"
+    ]
+}
