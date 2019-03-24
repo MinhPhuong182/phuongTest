@@ -33,7 +33,7 @@ public class ChiTieuService {
      * @param chiTieu the entity to save
      * @return the persisted entity
      */
-    public ChiTieu save(ChiTieu chiTieu) {
+    public ChiTieu save(ChiTieu chiTieu) {aaaa
         log.debug("Request to save ChiTieu : {}", chiTieu);
         return chiTieuRepository.save(chiTieu);
     }
