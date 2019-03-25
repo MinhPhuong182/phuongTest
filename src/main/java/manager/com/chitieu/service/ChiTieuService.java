@@ -38,6 +38,10 @@ public class ChiTieuService {
         return chiTieuRepository.save(chiTieu);
     }
 
+    void test(){
+
+    }
+
     /**
      * Get all the chiTieus.
      *
